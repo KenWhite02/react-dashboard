@@ -13,9 +13,9 @@ import { useStateContext } from '../context/ContextProvider';
 const Ecommerce = () => {
   return (
     <div className="mt-12">
-      <div className="flex flex-wrap lg:flex-nowrap justify-center">
-        <div className="bg-white dark:text-gray-200 dark:bg-secondary-dark-bg h-44 rounded-xl w-full lg:w-80 p-8 pt-9 m-3 bg-hero-pattern bg-no-repeat bg-cover bg-center">
-          <div className="flex justify-between items-center">
+      <div className="m-4">
+        <div className="bg-white dark:text-gray-200 dark:bg-secondary-dark-bg h-44 md:h-60 rounded-xl w-full p-8 pt-9 bg-hero-pattern bg-no-repeat bg-cover bg-center">
+          <div className="">
             <div>
               <p className="font-bold text-gray-400">Earnings</p>
               <p className="text-2xl">$8723.56</p>
@@ -32,11 +32,11 @@ const Ecommerce = () => {
           </div>
         </div>
 
-        <div className="flex m-3 flex-wrap justify-center gap-1 items-center">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 w-full gap-3 mt-3">
           {earningData.map((item) => (
             <div
               key={item.title}
-              className="bg-white dark:text-gray-200 dark:bg-secondary-dark-bg md:w-56 p-4 pt-9 rounded-2xl"
+              className="bg-white dark:text-gray-200 dark:bg-secondary-dark-bg p-4 pt-9 rounded-2xl"
             >
               <button
                 type="button"
