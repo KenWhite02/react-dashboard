@@ -11,7 +11,7 @@ export { default as ThemeSettings } from './ThemeSettings';
 export { default as UserProfile } from './UserProfile';
 
 // Chart Exports
-export { default as StackedLine } from './Charts/StackedLine';
+export { default as SparkLine } from './Charts/SparkLine';
 export { default as LineChart } from './Charts/LineChart';
 export { default as Stacked } from './Charts/Stacked';
 export { default as Pie } from './Charts/Pie';
