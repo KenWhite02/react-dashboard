@@ -54,7 +54,8 @@ const Navbar = () => {
     } else {
       setActiveMenu(true);
     }
-  }, [screenSize, setActiveMenu]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [screenSize]);
 
   return (
     <div className="flex justify-between p-2 md:mx-6 relative">
