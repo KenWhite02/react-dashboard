@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  ScheduleComponent,    
+  ScheduleComponent,
   Day,
   Week,
   WorkWeek,
@@ -17,7 +17,7 @@ import { scheduleData } from '../data/dummy';
 
 const Calendar = () => {
   return (
-    <div className="m-2 md:m-10 mt-24 p-2 md:p-10 mb-16 md:mb-0 bg-white rounded-xl">
+    <div className="m-2 md:m-10 mt-24 p-2 md:p-10 mb-16 bg-white rounded-xl">
       <Header category="App" title="Calendar" />
       <ScheduleComponent
         height="650px"
